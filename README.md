@@ -65,7 +65,7 @@ Medical students spend hours manually:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/FrameDx.git
+git clone https://github.com/Sn0wfly/FrameDx.git
 cd FrameDx
 
 # Install dependencies

@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# App data
+*.apkg
+*.wav
+
+# Temp processing dirs
+framedx_*/
+
+# Config (may contain API keys)
+settings.json
+
+# Claude Code
+.claude/
+claude_code_prompt.md

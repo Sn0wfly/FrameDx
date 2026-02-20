@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" rx="16" fill="url(#bg)"/>
+  <!-- Film frame icon -->
+  <g transform="translate(40, 35)">
+    <!-- Frame border -->
+    <rect x="0" y="0" width="130" height="130" rx="12" fill="none" stroke="url(#accent)" stroke-width="4"/>
+    <!-- Film sprocket holes left -->
+    <rect x="8" y="12" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="8" y="32" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="8" y="52" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="8" y="72" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="8" y="92" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="8" y="108" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <!-- Film sprocket holes right -->
+    <rect x="108" y="12" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="108" y="32" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="108" y="52" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="108" y="72" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="108" y="92" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <rect x="108" y="108" width="14" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+    <!-- Inner screen area -->
+    <rect x="28" y="12" width="74" height="106" rx="4" fill="#1e3a5f" opacity="0.8"/>
+    <!-- Medical cross / diagnostic symbol -->
+    <rect x="55" y="35" width="20" height="60" rx="3" fill="url(#accent)"/>
+    <rect x="38" y="52" width="54" height="20" rx="3" fill="url(#accent)"/>
+    <!-- Arrow pointing to card -->
+    <line x1="140" y1="65" x2="170" y2="65" stroke="#06b6d4" stroke-width="3" stroke-linecap="round"/>
+    <polyline points="164,58 172,65 164,72" fill="none" stroke="#06b6d4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Anki card icon -->
+  <g transform="translate(218, 50)">
+    <rect x="0" y="0" width="80" height="100" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="0" y="0" width="80" height="40" rx="8" fill="#3b82f6" opacity="0.3"/>
+    <rect x="0" y="32" width="80" height="8" fill="#1e3a5f"/>
+    <line x1="12" y1="55" x2="68" y2="55" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="65" x2="58" y2="65" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="75" x2="50" y2="75" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Question mark on front -->
+    <text x="40" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#06b6d4" text-anchor="middle">?</text>
+  </g>
+  <!-- App name -->
+  <text x="330" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="bold" fill="white" letter-spacing="-1">Frame</text>
+  <text x="570" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="bold" fill="url(#accent)" letter-spacing="-1">DX</text>
+  <!-- Tagline -->
+  <text x="332" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#94a3b8">Medical lecture videos → Anki flashcards</text>
+  <!-- Version badge -->
+  <rect x="332" y="145" width="52" height="22" rx="4" fill="#3b82f6" opacity="0.2"/>
+  <text x="358" y="161" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#3b82f6" text-anchor="middle">v1.0</text>
+</svg>

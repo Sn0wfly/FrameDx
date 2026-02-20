@@ -1,0 +1,8 @@
+PySide6>=6.6
+opencv-python>=4.9
+scikit-image>=0.22
+faster-whisper>=1.1
+genanki>=0.13
+ffmpeg-python>=0.2
+anthropic>=0.40
+numpy
